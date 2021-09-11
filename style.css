@@ -1,0 +1,158 @@
+.header {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  font-family: Ruda;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.9);
+  color: rgba(167, 167, 167, 0.6);
+}
+.header__photo {
+  width: 130px;
+  height: 170px;
+}
+.header__text {
+  margin-left: 25px;
+}
+.header__text h1 {
+  border-bottom: 5px solid rgba(167, 167, 167, 0.6);
+  color: #ffffff;
+}
+
+.main {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  font-family: Ruda;
+  font-size: 20px;
+  background: #c8c9ca;
+  padding: 0;
+  padding-bottom: 50px;
+  font-family: Roboto;
+  color: rgba(71, 69, 69, 0.9);
+}
+.main table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.main thead {
+  background-color: rgba(167, 167, 167, 0.6);
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(94, 94, 94, 0.9);
+  text-transform: uppercase;
+}
+.main tbody {
+  font-size: 18px;
+}
+.main td {
+  padding: 10px 0px 10px 50px;
+}
+.main .data td {
+  vertical-align: text-top;
+  width: 190px;
+}
+.main .data td:first-child {
+  width: 10px;
+}
+.main .data td:last-child {
+  padding-right: 20px;
+  width: 430px;
+}
+.main__list {
+  padding: 0;
+}
+.main__section {
+  display: flex;
+}
+.main__section table tbody {
+  font-size: 14px;
+}
+.main__section table tbody td {
+  padding: 5px 0 0 50px;
+}
+.main__section table tbody tr:first-child td {
+  padding-top: 20px;
+}
+.main__section table:first-child {
+  width: 300px;
+  margin-right: 20px;
+}
+.main__section table:last-child {
+  width: 480px;
+}
+.main__section tr td:nth-child(even) {
+  padding-left: 0;
+}
+
+.block {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-style: italic;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.progress {
+  height: 13px;
+  background-color: rgba(128, 128, 128, 0.9);
+}
+.progress__container {
+  width: 70px;
+  height: 13px;
+  background-color: rgba(167, 167, 167, 0.9);
+}
+.progress_html {
+  width: 80%;
+}
+.progress_css {
+  width: 80%;
+}
+.progress_js {
+  width: 80%;
+}
+.progress_ts {
+  width: 60%;
+}
+.progress_react {
+  width: 60%;
+}
+.progress_redux {
+  width: 60%;
+}
+.progress_jest {
+  width: 50%;
+}
+.progress_exp {
+  width: 80%;
+}
+.progress_git {
+  width: 60%;
+}
+.progress_wp {
+  width: 80%;
+}
+.progress_rus {
+  width: 90%;
+}
+.progress_bel {
+  width: 70%;
+}
+.progress_eng {
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
