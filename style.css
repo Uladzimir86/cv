@@ -2,6 +2,7 @@
   width: 800px;
   margin: 0 auto;
   padding: 50px;
+  box-shadow: 0px 0px 10px #000000;
   box-sizing: border-box;
   font-family: Ruda;
   font-size: 20px;
@@ -27,6 +28,7 @@
   width: 800px;
   margin: 0 auto;
   padding: 50px;
+  box-shadow: 0px 0px 10px #000000;
   box-sizing: border-box;
   font-family: Ruda;
   font-size: 20px;
